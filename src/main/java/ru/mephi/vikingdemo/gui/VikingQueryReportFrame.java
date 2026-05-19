@@ -112,9 +112,8 @@ public class VikingQueryReportFrame extends JFrame {
     }
 
     private void writeAxesReport() {
-        reportArea.setText("One axe: " + queryService.countWithAxes(1)
-                + System.lineSeparator()
-                + "Two axes: " + queryService.countWithAxes(2));
+        reportArea.setText("With one or two axes: " + (queryService.countWithAxes(1) 
+                +queryService.countWithAxes(2)));
     }
 
     private void writeTallReport() {
