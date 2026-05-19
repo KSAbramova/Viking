@@ -37,6 +37,7 @@ public class VikingService {
     }
 
     public VikingView addViking(Viking viking) {
+        
         return vikingStorage.save(viking);
     }
 

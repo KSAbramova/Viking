@@ -32,5 +32,5 @@ public class VikingListener {
         VikingView viking = service.createRandomViking();
         gui.addNewViking(viking);
         return viking;
-    }
+    } 
 }
